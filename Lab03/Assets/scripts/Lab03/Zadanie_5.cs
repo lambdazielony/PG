@@ -6,6 +6,8 @@ public class Zadanie_5 : MonoBehaviour
 {
     public GameObject cube;
 
+    private List<Vector3> usedPositions = new List<Vector3>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +23,11 @@ public class Zadanie_5 : MonoBehaviour
     }
 
     Vector3 randomPos(){
+        
         float x = Random.Range(-5.0f, 5.0f);
         float z = Random.Range(-305.0f, -295.0f);
         Vector3 randomPosition = new Vector3(x, 0.5f, z);
+
         return randomPosition;
     }
 }

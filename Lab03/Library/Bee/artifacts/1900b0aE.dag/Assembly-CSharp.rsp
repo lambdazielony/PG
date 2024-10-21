@@ -330,6 +330,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.AddOns.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.AssetIdRemapUtility.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
@@ -356,6 +360,10 @@
 "Assets/scripts/Lab03/Zadanie_3.cs"
 "Assets/scripts/Lab03/Zadanie_4.cs"
 "Assets/scripts/Lab03/Zadanie_5.cs"
+"Assets/scripts/Lab04/Lab04_Zadanie_1.cs"
+"Assets/scripts/Lab04/Lab04_Zadanie_2_3.cs"
+"Assets/scripts/Lab04/Lab04_Zadanie_4.cs"
+"Assets/scripts/Lab04/MoveWithCharacterController.cs"
 -langversion:9.0
 /deterministic
 /optimize+

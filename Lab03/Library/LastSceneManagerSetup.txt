@@ -1,13 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Zadanie_4_scena.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Zadanie_5_scena.unity
+- path: Assets/Lab04_Zadanie_2_scena.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
