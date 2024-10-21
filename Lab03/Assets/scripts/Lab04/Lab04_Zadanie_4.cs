@@ -28,13 +28,12 @@ public class Lab04_Zadanie_4 : MonoBehaviour
         // wykonujemy rotację wokół osi Y
         player.Rotate(Vector3.up * mouseXMove);
 
-        xRotation -= mouseYMove;
+        xRotation -= mouseYMove; //dodawanie/odejmowanie wartości z rotacji myszki do zmiennej 
         
-        // Ograniczamy kąt obrotu w zakresie od -90 do 90 stopni
+        // ograniczanie kątu obrotu 
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         // a dla osi X obracamy kamerę dla lokalnych koordynatów
-        // -mouseYMove aby uniknąć ofektu mouse inverse
         //transform.Rotate(new Vector3(-mouseYMove, 0f, 0f), Space.Self);
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
     }
