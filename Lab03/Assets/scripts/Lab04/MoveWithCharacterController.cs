@@ -55,4 +55,19 @@ public class MoveWithCharacterController : MonoBehaviour
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
     }
+
+    //dodane do Lab05 Zadanie 5
+    public void LaunchPlayer(float force)
+    {
+        playerVelocity.y = Mathf.Sqrt(force * -3.0f * gravityValue);
+    }
+
+    //dodane do Lab05 Zadanie 6
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.collider.CompareTag("Przeszkoda"))
+        {
+            Debug.Log("Przeszkoda");
+        }
+    }
 }

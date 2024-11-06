@@ -366,6 +366,11 @@
 "Assets/scripts/Lab04/Lab04_Zadanie_2_3.cs"
 "Assets/scripts/Lab04/Lab04_Zadanie_4.cs"
 "Assets/scripts/Lab04/MoveWithCharacterController.cs"
+"Assets/scripts/Lab05/Lab05_Zadanie1.cs"
+"Assets/scripts/Lab05/Lab05_Zadanie2.cs"
+"Assets/scripts/Lab05/Lab05_Zadanie3.cs"
+"Assets/scripts/Lab05/Lab05_Zadanie5.cs"
+"Assets/scripts/Lab05/Lab05_Zadanie6.cs"
 -langversion:9.0
 /deterministic
 /optimize+

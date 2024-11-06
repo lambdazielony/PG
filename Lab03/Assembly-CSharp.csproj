@@ -65,10 +65,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\Lab03\Lab03_Zadanie6_Lerp.cs" />
+    <Compile Include="Assets\scripts\Lab05\Lab05_Zadanie6.cs" />
+    <Compile Include="Assets\scripts\Lab05\Lab05_Zadanie1.cs" />
+    <Compile Include="Assets\scripts\Lab05\Lab05_Zadanie2.cs" />
+    <Compile Include="Assets\scripts\Lab05\Lab05_Zadanie3.cs" />
     <Compile Include="Assets\scripts\Lab03\Zadanie_4.cs" />
     <Compile Include="Assets\scripts\Lab03\Zadanie_3.cs" />
     <Compile Include="Assets\scripts\Lab03\Zadanie_2.cs" />
     <Compile Include="Assets\scripts\Lab04\Lab04_Zadanie_2_3.cs" />
+    <Compile Include="Assets\scripts\Lab05\Lab05_Zadanie5.cs" />
     <Compile Include="Assets\scripts\Lab04\Lab04_Zadanie_1.cs" />
     <Compile Include="Assets\scripts\Lab04\Lab04_Zadanie_4.cs" />
     <Compile Include="Assets\scripts\Lab03\Lab03_Zadanie6_Smooth.cs" />
